@@ -1,6 +1,6 @@
 # Akamai
 
-Performing a simple dns lookup on the `www.justice.gov`:
+Performing a simple DNS lookup on the `www.justice.gov`:
 
 ```bash
 $ dig www.justice.gov
