@@ -24,6 +24,10 @@ export default defineUserConfig({
           '/server-structure/concordance.md'
         ]
       }
+    ],
+    navbar: [
+      { text: 'Home', link: '/' },
+      { text: 'GitHub', link: 'https://github.com/ActiveTutorial/epstein-sleuther-wiki', icon: 'fab fa-github', target: '_blank' }
     ]
   }),
 
