@@ -17,11 +17,11 @@ export default defineUserConfig({
         children: ['/']
       },
       {
-        text: 'Server Structure',
+        text: 'Website Structure',
         children: [
-          '/server-structure/general.md',
-          '/server-structure/akamai.md',
-          '/server-structure/concordance.md'
+          '/website-structure/general.md',
+          '/website-structure/akamai.md',
+          '/website-structure/concordance.md'
         ]
       }
     ],
