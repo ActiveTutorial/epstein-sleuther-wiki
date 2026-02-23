@@ -1,0 +1,27 @@
+{
+  "name": "epstein-sleuther-wiki",
+  "version": "0.0.1",
+  "description": "Wiki/Documentation of the Epstein files",
+  "homepage": "https://github.com/ActiveTutorial/epstein-sleuther-wiki#readme",
+  "bugs": {
+    "url": "https://github.com/ActiveTutorial/epstein-sleuther-wiki/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ActiveTutorial/epstein-sleuther-wiki.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.26",
+    "@vuepress/theme-default": "^2.0.0-rc.123",
+    "sass-embedded": "^1.97.3",
+    "vuepress": "^2.0.0-rc.26"
+  }
+}
