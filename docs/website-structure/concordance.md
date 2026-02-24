@@ -36,7 +36,8 @@ Terms that will be used from now on:
 
 This folder structure matches up exactly with Concordance production exports. [Concordance® Native Viewer, Administrator's Guide, page 96](https://lexisnexis.com/documents/cndownload/Concordance%20Native%20Viewer%20Administration%20Guide.pdf#page=96) contains a screenshot of the folder structure, which matches what is observed in the ZIP files:
 
-![Screenshot of Concordance production](/concordance/file-structure.png)
+![Screenshot of Concordance production](/concordance/file-structure-dark-theme.png#dark)
+![Screenshot of Concordance production](/concordance/file-structure-light-theme.png#light)
 
 ## Individual files
 

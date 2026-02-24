@@ -1,6 +1,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
+import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
 
 export default defineUserConfig({
   bundler: viteBundler(),
@@ -30,6 +31,12 @@ export default defineUserConfig({
       { text: 'GitHub', link: 'https://github.com/ActiveTutorial/epstein-sleuther-wiki', icon: 'fab fa-github', target: '_blank' }
     ]
   }),
+
+  plugins: [
+    markdownImagePlugin({
+      mark: true
+    })
+  ],
 
   lang: 'en-US',
   title: 'Sleuther Wiki'
