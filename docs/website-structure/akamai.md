@@ -2,7 +2,7 @@
 
 Performing a simple DNS lookup on the `www.justice.gov`:
 
-```bash
+```bash{16-17}
 $ dig www.justice.gov
 
 ; <<>> DiG 9.18.39-0ubuntu0.24.04.2-Ubuntu <<>> www.justice.gov
@@ -31,7 +31,7 @@ This reveals that justice.gov uses [Akamai](https://www.akamai.com/) in some way
 
 Further investigation:
 
-```bash
+```bash{7,12,22,26,35-36,49,56-57}
 $ curl -I https://www.justice.gov/
 HTTP/2 200 
 content-language: en

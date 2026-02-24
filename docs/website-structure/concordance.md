@@ -8,25 +8,25 @@ The DOJ used to serve zip files as a bulk download option.
 Each zip file had the following nested folder structure:
 
 ```bash
-DataSet n/                           # Root folder for dataset n
-└── VOL0000n/                        # Volume folder corresponding to dataset n
-    ├── DATA/                        # Contains index and data reference files
-    │   ├── VOL0000n.OPT             # CSV-like file: lists all file names & relative paths; Concordance Opticon load file
-    │   └── VOL0000n.DAT             # Custom-format version of concordance load file
+DataSet n/                  # Root folder for dataset n
+└── VOL0000n/               # Volume folder corresponding to dataset n
+    ├── DATA/               # Contains index and data reference files
+    │   ├── VOL0000n.OPT    # CSV-like file: lists all file names & relative paths; Concordance Opticon load file
+    │   └── VOL0000n.DAT    # Custom-format version of concordance load file
     │
-    ├── IMAGES/                      # Contains PDF files of dataset
-    │   ├── 001/                     # Subfolder grouping PDFs (numbered)
-    │   │   └── ...                  # Actual PDF files or "No Images Produced" placeholders
-    │   ├── 002/                     # Next numbered folder
+    ├── IMAGES/             # Contains PDF files of dataset
+    │   ├── 001/            # Subfolder grouping PDFs (numbered)
+    │   │   └── ...         # Actual PDF files or "No Images Produced" placeholders
+    │   ├── 002/            # Next numbered folder
     │   │   └── ...
-    │   └── ...                      # More numbered folders as needed
+    │   └── ...             # More numbered folders as needed
     │
-    └── NATIVES/                     # Contains other associated files in their original formats
-        ├── 001/                     # Subfolder grouping native files
-        │   └── ...                  # Files in various formats
-        ├── 002/                     # Next numbered folder
+    └── NATIVES/            # Contains other associated files in their original formats
+        ├── 001/            # Subfolder grouping native files
+        │   └── ...         # Files in various formats
+        ├── 002/            # Next numbered folder
         │   └── ...
-        └── ...                      # More numbered folders as needed
+        └── ...             # More numbered folders as needed
 ```
 Terms that will be used from now on:
 - **Images**: Regular PDF files
